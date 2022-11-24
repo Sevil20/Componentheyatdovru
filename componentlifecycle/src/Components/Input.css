@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue;
+}
+.name ,.email , .password{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    border: none;
+    outline: none;
+}
+.name-label , .email-label ,.password-label{
+    font-size: 15px;
+    font-size: 30px;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+}
+.email {
+    margin-left: 50px;
+}
+.password{
+    margin-left: 2px;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 0px;
+    height: 33px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: red;
+}
